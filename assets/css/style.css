@@ -1,0 +1,19 @@
+#login {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    width: 450px;
+    height: 450px;
+}

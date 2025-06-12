@@ -11,7 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+a{
+    color: black !important;
+}
+
+
 
 #banner{
     height: 700px;
@@ -62,7 +68,16 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 20;
+    height: 300px;
+}
+
+.container-trio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 150px;
 }
 
 .caixatitulo{
@@ -73,10 +88,29 @@
     text-align: center;
     width: 400px;
 }
+
+.caixa-menu{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    height: 300px;
+    gap: 420px;
+}
+
+.caixa-menu-texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 450px;
+}
+
 .titulos-secundario{
     color: red;
     font-weight: 500;
 }
+
 .titulos-primario{
     font-weight: bolder;
     font-size: 40px;
@@ -115,16 +149,36 @@
     width: 240px;
 }
 
-.container-trio{
+.imagem-trio{
+    width: 247px;
+    height: 230px;
+}
+
+
+.individuo-estrutura-pizza{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 240px;
+}
+
+.imagem-trio-pizza{
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.arrows{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    text-align: center;
-    gap: 100px;
+    font-size: 30px;
+    gap: 10px;
 }
 
-.imagem-trio{
-    width: 247px;
-    height: 230px;
+.side-arrow{
+    border-radius:100%;
 }
